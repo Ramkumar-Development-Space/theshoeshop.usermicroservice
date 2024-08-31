@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheShoeShop.userservice", "TheShoeShop\TheShoeShop.userservice.csproj", "{0E2CB317-DAC8-47B5-B166-150B0FA90DBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.repository", "theshoeshop.userservice.repository\theshoeshop.userservice.repository.csproj", "{1714EFA5-237F-4DB7-A9E0-558CC0F23E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.dataaccess", "theshoeshop.userservice.dataaccess\theshoeshop.userservice.dataaccess.csproj", "{78C05329-3D94-4DA6-9223-23496813DD45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.domain", "theshoeshop.userservice.domain\theshoeshop.userservice.domain.csproj", "{61C31180-B611-460E-9B68-6F8A2050B3F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.infrasturcture", "ClassLibrary1theshoesho.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj", "{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.common", "thesheshop.userservice.common\theshoeshop.userservice.common.csproj", "{B7C52423-02C6-43BF-8C72-92A2E443FA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theshoeshop.log", "theshoeshop.log\theshoeshop.log.csproj", "{EF4F6127-8DDB-490D-A2B9-48CD7CF8BB3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E2CB317-DAC8-47B5-B166-150B0FA90DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2CB317-DAC8-47B5-B166-150B0FA90DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2CB317-DAC8-47B5-B166-150B0FA90DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2CB317-DAC8-47B5-B166-150B0FA90DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1714EFA5-237F-4DB7-A9E0-558CC0F23E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1714EFA5-237F-4DB7-A9E0-558CC0F23E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1714EFA5-237F-4DB7-A9E0-558CC0F23E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1714EFA5-237F-4DB7-A9E0-558CC0F23E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C05329-3D94-4DA6-9223-23496813DD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C05329-3D94-4DA6-9223-23496813DD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C05329-3D94-4DA6-9223-23496813DD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C05329-3D94-4DA6-9223-23496813DD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4F6127-8DDB-490D-A2B9-48CD7CF8BB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4F6127-8DDB-490D-A2B9-48CD7CF8BB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4F6127-8DDB-490D-A2B9-48CD7CF8BB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4F6127-8DDB-490D-A2B9-48CD7CF8BB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8744A0EF-2832-4B2A-9142-911DBED9F3CB}
+	EndGlobalSection
+EndGlobal
