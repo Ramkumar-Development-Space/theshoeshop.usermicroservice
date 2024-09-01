@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1theshoesho.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj" />
+    <ProjectReference Include="..\theshoeshop.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
