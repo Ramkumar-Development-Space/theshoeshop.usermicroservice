@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.domain", "theshoeshop.userservice.domain\theshoeshop.userservice.domain.csproj", "{61C31180-B611-460E-9B68-6F8A2050B3F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.infrasturcture", "ClassLibrary1theshoesho.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj", "{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.common", "thesheshop.userservice.common\theshoeshop.userservice.common.csproj", "{B7C52423-02C6-43BF-8C72-92A2E443FA3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.infrasturcture", "theshoeshop.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj", "{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61C31180-B611-460E-9B68-6F8A2050B3F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B7DDBE5-B6C7-4C10-BFAC-59CCE934DE22}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C52423-02C6-43BF-8C72-92A2E443FA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
