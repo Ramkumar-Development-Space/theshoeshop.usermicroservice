@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\customlogging\customlogging.csproj" />
     <ProjectReference Include="..\theshoeshop.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj" />
   </ItemGroup>
 

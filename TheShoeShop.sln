@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theshoeshop.userservice.infrasturcture", "theshoeshop.userservice.infrasturcture\theshoeshop.userservice.infrasturcture.csproj", "{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "customlogging", "customlogging\customlogging.csproj", "{02B694B0-A1E0-4608-B3D9-AE3F94DA49E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6CDD46C-3E13-4426-B83B-4F8480EE4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B694B0-A1E0-4608-B3D9-AE3F94DA49E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B694B0-A1E0-4608-B3D9-AE3F94DA49E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B694B0-A1E0-4608-B3D9-AE3F94DA49E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B694B0-A1E0-4608-B3D9-AE3F94DA49E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

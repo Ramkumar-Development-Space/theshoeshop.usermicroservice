@@ -11,29 +11,35 @@ namespace TheShoeShop.userservice.Controllers
     public class UserController : ControllerBase
     {
         private readonly ICustomerRepository repository;
+        private readonly ILogger<UserController> logger;
 
-        public UserController(ICustomerRepository repository)
+        public UserController(ICustomerRepository repository, ILogger<UserController> logger)
         {
             this.repository = repository;
+            this.logger = logger;
         }
 
+        [HttpGet("GetCustomerById")]
         public async Task<IActionResult> GetCustomerById([FromRoute] int id)
         {
-            ServiceResponse<User> response = new ServiceResponse<User> ();
+            logger.LogInformation("log testing");
+            //ServiceResponse<User> response = new ServiceResponse<User> ();
             try
             {
                 var result = await repository.GetCustomerById(id);
-
-                response.Status.StatusCode = "200";
-                response.Status.StatusMessage = "Customer data retrieved successfully";
-                response.ResponseData = result;
-                return Ok(response);
+                if(result.Data == null)
+                {
+                    throw new Exception("Data not available");
+                }
+                //response.Status.StatusCode = "200";
+                //response.Status.StatusMessage = "Customer data retrieved successfully";
+                //response.ResponseData = result;
+                return Ok();
             }
             catch (Exception ex)
             {
-                response.Status.StatusCode = "400";
-                response.Status.StatusMessage = ex.Message;
-                return BadRequest(response);  
+                logger.LogError(ex, ex.Message);
+                return BadRequest();  
             } 
         }
     }
